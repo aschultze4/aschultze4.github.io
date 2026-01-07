@@ -11,6 +11,16 @@ body {
   padding: 0 1.5rem;
   line-height: 1.65;
 }
+  a {
+     /* text-decoration: none; */
+    color: gray;
+  }
+
+  a:hover {
+    color: purple; /* Color changes when you hover over the link */
+  }
+
+<a href="
 
 h1, h2, h3 {
   font-family: Inter, system-ui, sans-serif;
