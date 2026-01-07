@@ -37,11 +37,24 @@ h2 {
 article {
   margin-bottom: 2rem;
   padding-left: 0;
+}
+
+.case-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.case-link article {
   transition: transform 0.2s ease;
 }
 
-article:hover {
+.case-link:hover article {
   transform: translateX(4px);
+}
+.case-link:focus-visible article {
+  outline: 2px solid #111;
+  outline-offset: 4px;
 }
 
 .tagline {
