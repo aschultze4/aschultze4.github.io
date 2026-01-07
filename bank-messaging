@@ -1,0 +1,75 @@
+<main>
+
+  <header class="fade-up">
+    <h1>Bank Messaging</h1>
+    <p class="tagline">
+      Clarifying when security warnings build trust vs trigger fear
+    </p>
+
+    <p class="meta">
+      Lead UX Researcher · 3 weeks · Interviews, concept testing
+    </p>
+  </header>
+
+  <section class="fade-up">
+    <h2>The Question</h2>
+    <p>
+      Teams disagreed on whether proactive scam warnings would reassure
+      users or increase anxiety. The core question was whether messaging
+      could prevent harm without eroding trust.
+    </p>
+  </section>
+
+  <section class="fade-up">
+    <h2>Why It Mattered</h2>
+    <p>
+      Poorly timed warnings risked both user harm and disengagement.
+      Over-warning could train users to ignore critical signals,
+      while under-warning exposed them to financial loss.
+    </p>
+  </section>
+
+  <section class="fade-up">
+    <h2>Constraints & Tradeoffs</h2>
+    <ul>
+      <li>Limited time before regulatory review</li>
+      <li>No historical behavioral data on scam exposure</li>
+      <li>Could not run live A/B tests at this stage</li>
+    </ul>
+  </section>
+
+  <section class="fade-up">
+    <h2>Method Selection</h2>
+    <p>
+      We needed to understand emotional reactions and mental models,
+      not optimize copy. We chose early concept testing with interviews
+      to surface thresholds of concern and language sensitivity.
+    </p>
+  </section>
+
+  <section class="fade-up">
+    <h2>What We Found</h2>
+    <ul>
+      <li>Users distinguished between “alerts” and “education”</li>
+      <li>Timing mattered more than wording</li>
+      <li>Overly authoritative language reduced perceived agency</li>
+    </ul>
+  </section>
+
+  <section class="fade-up">
+    <h2>Outcome & Impact</h2>
+    <p>
+      The team shifted from persistent alerts to contextual education.
+      Messaging guidelines were adopted across future security features.
+    </p>
+  </section>
+
+  <section class="fade-up">
+    <h2>Reflection</h2>
+    <p>
+      This study reinforced how easily well-intentioned safeguards
+      can undermine trust when emotional context is ignored.
+    </p>
+  </section>
+
+</main>
