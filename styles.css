@@ -11,21 +11,20 @@ body {
   padding: 0 1.5rem;
   line-height: 1.65;
 }
-  a {
+
+a, h1, h2, h3 {
+  font-family: Inter, system-ui, sans-serif;
+  letter-spacing: -0.01em;
+}
+ a {
      /* text-decoration: none; */
+    margin-top: 3rem;
     color: gray;
   }
 
   a:hover {
-    color: purple; /* Color changes when you hover over the link */
+    color: purple;
   }
-
-<a href="
-
-h1, h2, h3 {
-  font-family: Inter, system-ui, sans-serif;
-  letter-spacing: -0.01em;
-}
 
 h1 {
   font-size: 2.4rem;
