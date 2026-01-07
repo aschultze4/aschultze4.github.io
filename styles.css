@@ -25,6 +25,15 @@ h1 {
 h2 {
   margin-top: 3rem;
 }
+article {
+  margin-bottom: 2rem;
+  padding-left: 0;
+  transition: transform 0.2s ease;
+}
+
+article:hover {
+  transform: translateX(4px);
+}
 
 .tagline {
   font-family: Inter, sans-serif;
