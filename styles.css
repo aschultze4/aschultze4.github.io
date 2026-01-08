@@ -84,18 +84,14 @@ section > p:first-of-type {
 
 .case-link {
   display: block;
-  color: inherit;
-}
-
-.case-link article {
   transition: transform 0.2s ease;
 }
 
-.case-link:hover article {
+.case-link:hover {
   transform: translateX(4px);
 }
 
-.case-link:focus-visible article {
+.case-link:focus-visible {
   outline: 2px solid var(--text-main);
   outline-offset: 4px;
 }
