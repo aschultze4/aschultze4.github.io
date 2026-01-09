@@ -16,7 +16,7 @@
 body {
   font-family: "Source Serif 4", Georgia, serif;
   color: var(--text-main);
-  padding: 0 1.5rem;
+  /*padding: 0 1.5rem;*/
   line-height: 1.65;
    background: #f7f7f8;
    margin: 0;
@@ -122,9 +122,9 @@ card styling plus case study link
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
-/* Case layout */
-.case {
-  max-width: 760px;
+/* page layout */
+.page {
+  max-width: 720px;
   margin: 4rem auto;
   padding: 0 1.5rem;
 }
