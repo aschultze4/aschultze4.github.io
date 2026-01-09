@@ -129,7 +129,7 @@ card styling plus case study link
 
 /* Reading surface */
 .case-surface {
-  background: #fff;
+  background-color: lightblue;
   border-radius: 12px;
   padding: 3rem 3.5rem;
   box-shadow:
@@ -225,6 +225,7 @@ ul + p {
 .case-lede {
   font-family: Inter, system-ui, sans-serif;
   font-size: 1.15rem;
+   color: #333;
   line-height: 1.5;
   max-width: 36rem;
   margin-bottom: 1.25rem;
