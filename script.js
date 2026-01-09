@@ -1,5 +1,3 @@
-console.log("script.js is running");
-
 const observer = new IntersectionObserver(
   entries => {
     entries.forEach(entry => {
