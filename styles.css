@@ -71,12 +71,12 @@ article {
   margin-bottom: 2rem;
 }
 
-/* First paragraph after section header */
+/* First paragraph after section header 
 section > p:first-of-type {
   font-family: Inter, system-ui, sans-serif;
   font-size: 1.05rem;
   color: #333;
-}
+} */
 
 /* -----------------------------
 card styling plus case study link
