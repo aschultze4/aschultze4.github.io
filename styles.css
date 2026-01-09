@@ -180,4 +180,38 @@ ul + p {
   transform: translateY(0);
 }
 
+/* -----------------------------
+   Case study header
+------------------------------ */
+
+.case-header {
+  margin-bottom: 4rem;
+}
+
+.breadcrumb {
+  margin-bottom: 1.5rem;
+}
+
+.breadcrumb a {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.case-header h1 {
+  margin-bottom: 0.75rem;
+}
+
+.case-lede {
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 1.15rem;
+  line-height: 1.5;
+  max-width: 36rem;
+  margin-bottom: 1.25rem;
+}
+
+.case-meta {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
 
