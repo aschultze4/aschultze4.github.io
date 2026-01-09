@@ -124,14 +124,14 @@ card styling plus case study link
 
 /* page layout */
 .page {
-  max-width: 720px;
+  max-width: 900px;
   margin: 4rem auto;
   padding: 0 1.5rem;
 }
 
 /* Reading surface */
 .case-surface {
-   outline: 4px solid red;
+outline: 4px solid red;
   background-color: lightblue;
   border-radius: 16px;
   padding: 3.5rem 4rem;
