@@ -131,6 +131,7 @@ card styling plus case study link
 
 /* Reading surface */
 .case-surface {
+   outline: 4px solid red;
   background-color: lightblue;
   border-radius: 16px;
   padding: 3.5rem 4rem;
