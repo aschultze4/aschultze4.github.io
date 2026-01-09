@@ -79,28 +79,25 @@ section > p:first-of-type {
 }
 
 /* -----------------------------
-   Case study links
+card styling plus case study link
 ------------------------------ */
 
-.case-link {
-  display: block;
-  transition: transform 0.2s ease;
-}
-
 .card {
-  padding: 1.5rem 1.75rem;
-  border: 1px solid var(--border-subtle);
-  border-radius: 12px;
-  background: #fff;
+  padding: 1.75rem 2rem;
+  background: #fafafa;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 14px;
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease,
-    border-color 0.2s ease;
+    border-color 0.2s ease,
+    background-color 0.2s ease;
 }
+
+
 .card h3 {
-  margin-top: 0;
-  margin-bottom: 0.25rem;
-  font-size: 1.05rem;
+  margin: 0 0 0.4rem;
+  font-size: 1.1rem;
 }
 
 .card p {
@@ -108,17 +105,23 @@ section > p:first-of-type {
   color: var(--text-muted);
   line-height: 1.5;
 }
-
-.case-link:hover .card {
-  transform: translateX(4px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
-  border-color: rgba(0, 0, 0, 0.12);
+.case-link {
+  display: block;
+  transition: transform 0.2s ease;
 }
+
 
 .case-link:focus-visible .card {
   outline: 2px solid var(--text-main);
   outline-offset: 4px;
 }
+.case-link:hover .card {
+  transform: translateX(4px);
+  background: #fff;
+  border-color: rgba(0, 0, 0, 0.18);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
 
 
 /* -----------------------------
