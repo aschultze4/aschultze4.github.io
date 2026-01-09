@@ -86,19 +86,6 @@ section > p:first-of-type {
   display: block;
   transition: transform 0.2s ease;
 }
-/*
-.case-link:hover {
-  transform: translateX(4px);
-}
-
-.case-link:focus-visible {
-  outline: 2px solid var(--text-main);
-  outline-offset: 4px;
-} */
-
-/* -----------------------------
-   Card surface
------------------------------- */
 
 .card {
   padding: 1.5rem 1.75rem;
@@ -109,6 +96,17 @@ section > p:first-of-type {
     transform 0.2s ease,
     box-shadow 0.2s ease,
     border-color 0.2s ease;
+}
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+  font-size: 1.05rem;
+}
+
+.card p {
+  margin: 0;
+  color: var(--text-muted);
+  line-height: 1.5;
 }
 
 .case-link:hover .card {
