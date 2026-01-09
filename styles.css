@@ -16,7 +16,6 @@
 body {
   font-family: "Source Serif 4", Georgia, serif;
   color: var(--text-main);
-  /*padding: 0 1.5rem;*/
   line-height: 1.65;
    background: #f5f7fa;
    margin: 0;
@@ -33,17 +32,22 @@ a {
 
 h1 {
   font-size: 2.4rem;
-  margin-bottom: 0.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  line-height: 1.2;
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+  font-weight: 600;
   margin-top: 3rem;
   margin-bottom: 1rem;
+  line-height: 1.3;
 }
 
 p {
   margin: 0 0 1.25rem;
+  font-size: 1.05rem;
 }
 
 /* -----------------------------
@@ -70,13 +74,6 @@ section {
 article {
   margin-bottom: 2rem;
 }
-
-/* First paragraph after section header 
-section > p:first-of-type {
-  font-family: Inter, system-ui, sans-serif;
-  font-size: 1.05rem;
-  color: #333;
-} */
 
 /* -----------------------------
 card styling plus case study link
@@ -209,7 +206,6 @@ ul + p {
 /* -----------------------------
    Case study header
 ------------------------------ */
-
 .case-header {
   margin-bottom: 4rem;
 }
@@ -223,22 +219,18 @@ ul + p {
   color: var(--text-muted);
 }
 
-.case-header h1 {
-  margin-bottom: 0.75rem;
-}
-
 .case-lede {
-  font-family: Inter, system-ui, sans-serif;
-  font-size: 1.15rem;
-   color: #333;
-  line-height: 1.5;
-  max-width: 36rem;
-  margin-bottom: 1.25rem;
+  font-size: 1.2rem;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  font-weight: 400;
 }
 
 .case-meta {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: var(--text-muted);
+  font-style: italic;
 }
 
 
