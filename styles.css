@@ -98,7 +98,9 @@ a:hover {
 }
 
 .llink {
-  color: var(--text-main);;
+  font-family: "Source Serif 4", Georgia, serif;
+  color: var(--text-main);
+  line-height: 1.65;
    text-decoration: underline;
 }
 
