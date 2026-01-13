@@ -315,5 +315,13 @@ ul + p {
   opacity: 0.3;
   line-height: 0;
 }
+section + section::before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.1);
+  margin: 3rem 0;
+}
 
 
