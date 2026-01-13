@@ -97,6 +97,14 @@ a:hover {
   color: var(--accent);
 }
 
+.llink {
+   color: var(--accent);
+}
+
+.llink:hover {
+   color: var(--text-muted);
+}
+
 /* -----------------------------
   Spacing
 ------------------------------ */
