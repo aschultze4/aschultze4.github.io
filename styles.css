@@ -293,4 +293,27 @@ ul + p {
   font-style: italic;
 }
 
+/* -----------------------------
+   Case study format moments
+------------------------------ */
+
+.participant-quote {
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #333;
+  padding: 2rem 2.5rem;
+  margin: 2.5rem 0;
+  background: #f8f9fa;
+  border-left: 4px solid var(--accent);
+  border-radius: 8px;
+}
+
+.participant-quote::before {
+  content: '"';
+  font-size: 3rem;
+  color: var(--accent);
+  opacity: 0.3;
+  line-height: 0;
+}
+
 
