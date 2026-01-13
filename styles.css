@@ -98,6 +98,7 @@ a:hover {
 }
 
 .llink {
+  color: var(--text-main);;
    text-decoration: underline;
 }
 
