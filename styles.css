@@ -329,8 +329,8 @@ ul + p {
 ------------------------------ */
 .case-image {
   width: 100%;
-  max-width: 600px;
-max-height: 500px;
+   max-height: 400px;
+   object-fit: contain;
   margin: 2.5rem auto;
   display: block;
   border-radius: 8px;
