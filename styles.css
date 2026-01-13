@@ -329,10 +329,14 @@ ul + p {
 ------------------------------ */
 .case-image {
   width: 100%;
-  margin: 2.5rem 0;
+  max-width: 600px;
+max-height: 500px;
+  margin: 2.5rem auto;
+  display: block;
   border-radius: 8px;
   border: 1px solid rgba(0, 0, 0, 0.08);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+   
 }
 
 .image-caption {
