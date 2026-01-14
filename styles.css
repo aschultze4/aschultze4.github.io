@@ -334,7 +334,7 @@ ul + p {
 .insight-title {
   font-size: 1.15rem;
   font-weight: 600;
-  color: var(--accent);
+  color: #333;
   margin: 0 0 0.75rem;
   line-height: 1.4;
 }
