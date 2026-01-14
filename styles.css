@@ -325,6 +325,44 @@ ul + p {
   margin: 3rem auto;
 }
 /* -----------------------------
+   Insight blocks
+------------------------------ */
+.insight-block {
+  margin-bottom: 2.5rem;
+}
+
+.insight-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 0 0 0.75rem;
+  line-height: 1.4;
+}
+
+/* Participant quote */
+.participant-quote {
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #333;
+  padding: 2rem 2.5rem;
+  margin: 2.5rem 0;
+  background: #f8f9fa;
+  border-left: 4px solid var(--accent);
+  border-radius: 8px;
+  position: relative;
+}
+
+.participant-quote::before {
+  content: '"';
+  font-size: 3rem;
+  color: var(--accent);
+  opacity: 0.3;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  line-height: 0;
+}
+/* -----------------------------
    Case study images
 ------------------------------ */
 .case-image {
