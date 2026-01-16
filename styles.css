@@ -372,11 +372,11 @@ ul + p {
 /* -----------------------------
    Case study images
 ------------------------------ */
-.image-container {
+/*.image-container {
   display: table;
   max-width: 100%;
   margin: 2.5rem auto;
-}
+}*/
 
 .case-image {
   max-width: 100%;
