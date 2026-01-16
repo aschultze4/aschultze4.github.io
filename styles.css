@@ -290,7 +290,7 @@ ul + p {
 .case-meta {
   font-size: 0.95rem;
   color: var(--text-muted);
-  font-style: italic;
+  font-family: Inter;
 }
 
 /* -----------------------------
