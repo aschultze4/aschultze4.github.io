@@ -372,10 +372,9 @@ ul + p {
 /* -----------------------------
    Case study images
 ------------------------------ */
-
 .case-image {
   max-width: 100%;
-  max-height: 500px;
+  max-height: 400px;
   object-fit: contain;
   margin: 2.5rem auto;
   display: block;
