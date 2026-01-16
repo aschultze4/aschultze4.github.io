@@ -373,10 +373,9 @@ ul + p {
    Case study images
 ------------------------------ */
 .image-container {
-  display: inline-block;
+  display: table;
   max-width: 100%;
   margin: 2.5rem auto;
-  text-align: center;
 }
 
 .case-image {
@@ -387,16 +386,19 @@ ul + p {
   border-radius: 8px;
   border: 1px solid rgba(0, 0, 0, 0.08);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-  margin: 0 auto;
 }
 
+
 .image-caption {
-  display: block;
+  display: table-caption;
+  caption-side: bottom;
   font-size: 0.9rem;
   color: var(--text-muted);
   margin-top: 1rem;
   font-style: italic;
+  text-align: center;
 }
+
 /* -----------------------------
    Case study navigation
 ------------------------------ */
