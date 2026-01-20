@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bank Messaging</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+<main class="page">
+<article class="case-surface"> 
+<header class="case-header fade-up">
+  <nav class="breadcrumb">
+    <a href="index.html">← Home</a>
+  </nav>
+
+  <h1>Bank Messaging</h1>
+  <p class="case-lede">
+    Research on rebuilding trust in fraud and scam alerts across platforms.
+  </p>
+
+  <p class="case-meta">
+    Lead researcher · 10 weeks · Qualitative + quantitative research · Cross-platform alerts (push + web, SMS, email)
+  </p>
+</header>
+
+  <section class="fade-up">
+    <h2>Context</h2>
+    <p>
+      Fraud and scams cost people billions of dollars. 
+      Digital bank communications are the first line between customers' money
+      and bad actors. They need to be easy to read, and natural to respond to.
+    </p>
+    <p>
+      With over 30 different types of communications
+      around fraud, it was time to standardize our approach across several lines 
+      of business in order to
+      increase customer engagement and message credibility.
+    </p>
+    <article class="card-goal">
+      <h3>Research Goal</h3>
+      <p>
+      Understand how customers trust  
+      messages in order to prevent scam losses.
+      </p>
+    </article>
+
+  </section>
+
+  <section class="fade-up">
+    <h2>Constraints</h2>
+    <ul>
+      <li>Limited resources for scope of project</li>
+      <li>Unable to change certain design aspects</li>
+      <li>Could not run live tests for situational accuracy</li>
+    </ul>
+  </section>
+
+  <section class="fade-up">
+    <h2>Approach</h2>
+    <p>
+      After competitive research and stakeholder interviews, I made the decision
+      to pitch a new approach. Our planned quantitative copy testing aligned with 
+      the team's typical approach, but I knew it would not give us
+      the results we needed: <b>What message components actually drive trust?</b>
+    </p>
+      <p>
+        I defined four message dimensions 
+        then created a research "menu" for stakeholders that outlined method options 
+        with outcomes and timing. In an alignment workshop, we agreed on:
+      </p>
+      <ul>
+      <li>
+        <b>Click test:</b> Test two design versions with 600 customers under a 
+        30-second time constraint to determine how CTA button design 
+        affected response accuracy and user perception.</li>
+      <li>
+        <b>Lean think-aloud study:</b> Foundational behavioral insights without scheduling
+         overhead in low-budget, low-time conditions.
+      </li>
+    </ul>
+  <img src="message-workspace.png" alt="Research planning documents showing four message dimensions, study menu options, and alignment workshop materials" class="case-image">
+  <span class="image-caption">Research planning: outlining 
+      four message dimensions, study menu options, and other alignment workshop materials</span>
+</figure>
+  </section>
+
+  <section class="fade-up">
+  <h2>Key Findings</h2>
+  
+  <div class="insight-block">
+    <h3 class="insight-title">Click test results revealed critical insights about user behavior under pressure</h3>
+    <p>
+      Button design alone did not meaningfully affect click accuracy, which remained low across both versions (50% vs. 51.8%). 
+      Time to click and perception ratings were similarly consistent (12s vs. 13s). 
+      This allowed the team to confidently make a design decision aligned with brand standards.
+    </p>
+    <p>
+      However, the overall low accuracy and high rate of clicks on incorrect CTAs (21-27%) 
+      formed an early hypothesis: users struggle to identify their expected action in urgent situations. 
+      This theory was confirmed in subsequent qualitative research.
+    </p>
+  </div>
+
+  <div class="insight-block">
+    <h3 class="insight-title">Trust is the foundation of message performance</h3>
+    <p>
+      Customers automatically categorize scam-related communications as urgent, 
+      meaning we can scale back language to improve message legitimacy. 
+      I identified key trust signals that influence whether users engage with messages, 
+      including sender consistency, recognizable transaction details, and clear consequences. 
+      One signal (scam warnings and education) proved unexpectedly powerful and easy to implement. 
+      </p>
+    <p>
+        In the words of a participant: 
+      </p>
+    
+  </div>
+
+  <blockquote class="participant-quote">
+    A scammer wouldn't tell you that.
+  </blockquote>
+
+  <p>
+    I also discovered specific situations where customers are less likely to trust or act on a message, 
+    informing the team which messages warrant additional context and which are less sensitive.
+  </p>
+</section>
+
+  <section class="fade-up">
+    <h2>Outcomes</h2>
+    <p>
+      This is an early-stage project likely to undergo 
+      further evaluative research. Looking forward,
+      my proposed strategy centers around consistent branding, 
+      enhanced consequence + transaction details, and providing multiple secure paths. 
+      Thanks to the results on a specific type of 
+      message, the team will pursue a partnership to 
+      improve sender verification. 
+    </p>
+  </section>
+   <section class="fade-up">
+    <h2>Reflection</h2>
+    <p>
+        If I were to do this project again, I would set out to define 
+        the dimensions of a successful communication earlier. I would also create a 
+      map of the communication types to make it more clear what design changes were feasible.
+      </p>
+  </section>
+  <nav class="case-nav">
+  <a href="fb.html" class="next-case">
+    <span class="next-label">Next Case Study</span>
+    <span class="next-title">Balance Assist Loan Application →</span>
+  </a>
+</nav>
+  </article>
+</main>
+</body>
+</html>
