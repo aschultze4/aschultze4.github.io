@@ -1,1 +1,86 @@
+ <!--detailed*-->
+<!DOCTYPE html>
+<html lang="en">
+<head> <!--tab details *-->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Annabelle's Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="page">
+  <header class="fade-up intro">
+  <img src="headshot.png" alt="Annabelle Schultze" class="headshot">
+  <div>
+    <h1>Annabelle Schultze</h1>
+    <p class="tagline">UX researcher influencing products for humans</p>
+  </div>
+  </header>
+    
+  <section class="fade-up">
+<p>
+  Hi! I'm <a href="https://www.linkedin.com/in/annabelle-s1/" class="llink">Annabelle</a>, and I am a user experience researcher 
+  with a passion for discovery through empathy.
+</p>
+  <p>
+    Current role: AVP Experience Design Researcher at Bank of America, 
+    where I investigate product experiences for 60+ million customers. 
+    My work spans legacy systems like ATMs, emerging features like credit monitoring and 
+    app payments, and AI tooling. I take a holistic approach to balance regulatory constraints with customer-centric recommendations.
+    </p>
+  <p>
+    I built this site to highlight the following projects, where I brought 
+    strategic thinking into 
+    intense product environments.
+  </p>
+</section>
+  
+<section class="fade-up">
+  <h2>Selected Work</h2>
 
+  <a href="bank-messaging.html" class="case-link">
+    <article class="card">
+      <h3>Bank Messaging</h3>
+      <p>
+      How can fraud communications prevent harm by building trust?
+      </p>
+    </article>
+  </a>
+
+  <a href="bal.html" class="case-link">
+    <article class="card">
+      <h3>Balance Assist Loan Application</h3>
+      <p>
+       Improving short-term loan applications for at-risk populations.
+      </p>
+    </article>
+  </a>
+  
+   <a href="new-experience.html" class="case-link">
+    <article class="card">
+      <h3>New Vendor Experience</h3>
+      <p>
+       Uncovering how our customers use a proposed partner capability.
+      </p>
+    </article>
+  </a>
+
+   <a href="dda.html" class="case-link">
+    <article class="card">
+      <h3>Feature Upgrade</h3>
+      <p>
+       Mapping customer mental models for a digital feature upgrade.
+      </p>
+    </article>
+  </a>
+  
+</section>
+  <!--</article>-->
+  </main>
+</body>
+</html>
